@@ -1,12 +1,17 @@
 {
-  "name": "exemplo2",
-  "version": "1.0.0",
-  "description": "a sample app to test node js",
+  "name": "conforta.me",
+  "version": "1.0.1",
+  "description": "conforta.me app",
   "main": "app.js",
   "scripts": {
-    "test": "opa"
+    "start": "node app.js"
   },
-  "author": "guilherme",
+  "keywords": [
+    "Mortim",
+    "conforta.me",
+    "app"
+  ],
+  "author": "conforta.me team",
   "license": "ISC",
   "dependencies": {
     "angular-2-local-storage": "^1.0.1",
