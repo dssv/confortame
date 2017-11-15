@@ -1,0 +1,134 @@
+/* Configurações básicas do site como fonte */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+
+body { 
+  margin:0px;
+  padding:0px;
+  width:100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Menu Desktop Início */ 
+.topnav {
+  background-color: #333333;
+  height: 55px;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  height: 55px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a img {
+  height: 25px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav .icon {
+    display: none;
+}
+
+/* Menu Desktop Final */ 
+
+
+/* Site Mobile. A primeira linha define o tamanho máximo da tela, que nesse caso é 600px. Por enquanto vamos trabalhar só com esse tamanho*/
+@media screen and (max-width: 600px) { 
+  
+body {
+    font-size: 16px;
+    width: 100%;
+    background-color: black;
+  }
+  
+
+
+ /*O conteúdo aqui dentro muda de acordo com sua bolinha Início*/
+#caixao {
+    height: 900px;
+    background-color: white;
+    width: 80%;
+    padding: 5%;
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    overflow: scroll;
+  } 
+  
+#caixao img {
+    width: 120px; 
+  } 
+  
+
+
+  .pergunta {
+    text-align: left;
+    font-size: 1em;
+    font-weight: 600;
+    color: #4f4f4f;
+    clear: both;
+    padding-top: 20px;
+  }
+
+  #altura, #corurna, #ornamento, #flor, #corflor {
+    float: left;
+    margin: 20px 6px;
+    width: 60px;
+    height: 80px;
+    text-align: center;
+    font-size: 0.7em;
+  }
+  
+  label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:3px solid #eaeaea;
+  border-radius: 50px;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:3px solid #00AB9C;
+  border-radius: 50px;
+}
+  
+  textarea {
+    width: 90%;
+    height: 200px;
+    font-size: 1em;
+    border: 2px solid #eaeaea;
+    color: #4F4F4F;
+    padding: 10px;
+    margin: 10px auto;
+  } 
+
+.confirmar {
+    position: relative;
+    width: 180px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #00AB9C;
+    border-radius: 6px;
+    border: transparent;
+    padding: 15px;
+    margin: 10px 40px;
+    font-size: 1em;
+    clear:both;
+  }
+
+ /*O conteúdo aqui dentro muda de acordo com sua bolinha Final*/  
+  
+ /* Bolinhas Início */
+  
+ 
+  
+}
